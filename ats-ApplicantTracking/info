@@ -1,0 +1,11 @@
+username:admin
+password:admin
+
+
+localhost:8080/candidates-------GET(to retrieve all the candidates)
+localhost:8080/candidates/{id}--------GET(to retrieve specific candidate)
+localhost:8080/candidates/--------POST(to add a candidate)
+localhost:8080/candidates/{id}--------PUT(to update a  specific candidate)
+localhost:8080/candidates/{id}--------DELETE(to delete specific candidate)
+
+SAME WITH ROLE AND CONSUMER(USER)
