@@ -1,16 +1,11 @@
 package com.mobileprogramming.dao;
 
-import java.util.Optional;
-
-
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.mobileprogramming.model.UserDao;
-
+import com.mobileprogramming.model.User;
 
 @Repository
-public interface UserRepository extends CrudRepository<UserDao, Long>{
-	
-	 UserDao findByUsername(String username);
+public interface UserRepository extends JpaRepository<User, Integer>{
+
 }
